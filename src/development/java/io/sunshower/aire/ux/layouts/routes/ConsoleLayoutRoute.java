@@ -10,6 +10,7 @@ import io.sunshower.aire.ux.layouts.ConsoleLayout;
 public class ConsoleLayoutRoute extends VerticalLayout {
 
   public ConsoleLayoutRoute() {
+    setSizeFull();
     add(new ConsoleLayout());
   }
 }

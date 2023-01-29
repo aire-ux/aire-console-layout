@@ -169,9 +169,13 @@
     "@vaadin/vaadin-virtual-list": "23.2.3",
     "@vaadin/vertical-layout": "23.2.3",
     "@vaadin/virtual-list": "23.2.3",
+    "cash-dom": "^8.1.2",
     "construct-style-sheets-polyfill": "3.1.0",
     "date-fns": "2.29.3",
-    "lit": "2.3.0"
+    "golden-layout": "^2.6.0",
+    "install": "^0.13.0",
+    "lit": "2.3.0",
+    "npm": "^9.4.0"
   },
   "vaadin": {
     "dependencies": {
@@ -294,7 +298,7 @@
       "workbox-core": "6.5.0",
       "workbox-precaching": "6.5.0"
     },
-    "hash": "187cc90603c17fc764b6066b40ccad38327209fd5c8695f2e107fdbae2ffc7a8"
+    "hash": "c8ec7f122ee6689b64c7507d54d992ad4f807a206d53cd088591882baa52049c"
   },
   "overrides": {
     "@vaadin/bundles": "$@vaadin/bundles",
@@ -399,6 +403,10 @@
     "construct-style-sheets-polyfill": "$construct-style-sheets-polyfill",
     "lit": "$lit",
     "@polymer/polymer": "$@polymer/polymer",
-    "date-fns": "$date-fns"
+    "date-fns": "$date-fns",
+    "cash-dom": "$cash-dom",
+    "golden-layout": "$golden-layout",
+    "install": "$install",
+    "npm": "$npm"
   }
 }

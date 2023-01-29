@@ -9,8 +9,9 @@ import com.vaadin.flow.component.dependency.JsModule;
 @Tag("aire-console-layout")
 @JsModule(Paths.ConsoleLayout_SOURCE)
 @CssImport(Paths.ConsoleLayout_STYLES)
-// @JsModule("@aire-ux/aire-console-layout/aire-console-layout")
-// @CssImport("@aire-ux/aire-console-layout/styles/aire-console-layout.css")
+@CssImport("golden-layout/dist/css/goldenlayout-base.css")
+//@CssImport("golden-layout/dist/css/themes/goldenlayout-light-theme.css")
+@CssImport("golden-layout/dist/css/themes/goldenlayout-dark-theme.css")
 
 /** uncomment this if you have deployed this component into NPMJS */
 // @NpmPackage(value = "@${organzation}/@aire-console-layout", version =
@@ -18,6 +19,5 @@ import com.vaadin.flow.component.dependency.JsModule;
 public class ConsoleLayout extends HtmlContainer {
 
   public ConsoleLayout() {
-    add(new Button("Hello from ConsoleLayout!"));
   }
 }
