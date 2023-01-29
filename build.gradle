@@ -300,8 +300,13 @@ node {
 
 
 bootJar {
-    mainClass = 'io.sunshower.aire.ux.layoutsConsoleLayoutDemoApplication'
-    classpath = sourceSets.development.runtimeClasspath
+    mainClass = 'io.sunshower.aire.ux.layouts.ConsoleLayoutDemoApplication'
+    classpath += sourceSets.development.runtimeClasspath
+}
+
+bootRun {
+    mainClass = 'io.sunshower.aire.ux.layouts.ConsoleLayoutDemoApplication'
+    classpath += sourceSets.development.runtimeClasspath
 }
 
 /**

@@ -9,7 +9,6 @@ import io.sunshower.aire.ux.layouts.ConsoleLayout;
 @Route("aire-console-layout")
 public class ConsoleLayoutRoute extends VerticalLayout {
 
-
   public ConsoleLayoutRoute() {
     add(new ConsoleLayout());
   }
